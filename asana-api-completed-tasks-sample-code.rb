@@ -1,7 +1,3 @@
-require 'bundler'
-Bundler.require
-require 'asana'
-
 #make sure to store your access token in ENV variables 
 #do not publish access token to version control  
 access_token = your_access_token
