@@ -27,7 +27,7 @@ data.each do |task_hash|
 	end	
 end
 
-#print completed task names between date range
+#print names of tasks that were completed between date range
 completed_tasks_between_dates.each do |task|
 	puts task["name"]
 end
