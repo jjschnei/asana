@@ -1,0 +1,12 @@
+
+# Assumptions:
+# The new 'status_update' endpoint will be a property of the 'project' resource.  
+# The 'notes' section of the 'projects' doc will include:  'Followers of a project can change the status of the project and will receive status updates made by other project followers. 
+# The below documentation for status updates will fit within the 'properties' section of the existing projects.yaml reference doc.
+
+ - name: status_update
+    <<: *PropType.Status
+    comment: |
+      A description of the project's status containing an optional color (must be either
+      one of: `green`, `yellow`, `red`, or 'null') and a required short message.
+
