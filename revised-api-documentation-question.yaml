@@ -65,7 +65,7 @@
 # I would update the 'asana.com/developers/api-reference/task' and '/story' pages to include the fields documentation listed below.  
 # To minimize repetition for this assignment, I have only included the updated material for the /tasks resource.  
 # I would also add the below material to the '/api-reference/story' documentaton with the word 'task' replaced with 'story'.
-# In the /story doc, each property would have a note stating: 'This property only exists for stories that provide thanks'.
+# In the /story doc, each property would have a note stating: 'This property only exists for stories that provide thanks.'
 
 Field           Description 
 
@@ -85,12 +85,12 @@ thanks_message  Example:  { id: 1234, user: {id: 5678, name: 'Mittens'}, value: 
 
               
 # Another assumptions is that an existing 'thanks' endpoint can be updated or one can be added by making a PUT request on the URL for that task.  
-  # The 'thanks_message' parameter can be used to specify the value and message of the thanks.  
-  # The request would return the complete updated task record.
+# The 'thanks_message' parameter can be used to specify the value and message of the thanks.  
+# The request would return the complete updated task record.
 
 
 # Here is an example of a command-line GET request to return the array of 'thanks' for a specific task.  
-  # Note that this example uses the output expanding option:
+# Note that this example uses the output expanding option:
 
 # Request
 curl -H "Authorization: Bearer <personal_access_token>" \
