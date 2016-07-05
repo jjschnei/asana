@@ -51,7 +51,6 @@
       - |
         This property only exists for stories that provide thanks.  
 
-
  - name: thanks_message
     <<: *PropType.ThanksMessage
     comment: |
